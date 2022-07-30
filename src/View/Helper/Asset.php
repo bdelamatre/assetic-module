@@ -2,8 +2,8 @@
 
 namespace AsseticBundle\View\Helper;
 
-use Zend\View\Helper\Placeholder\Container;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\View\Helper\Placeholder\Container;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 use AsseticBundle\ServiceFactory;
 use AsseticBundle\Exception;
 use Assetic\Contracts\Asset\AssetInterface;

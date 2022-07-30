@@ -11,7 +11,7 @@ use Assetic\AssetWriter;
 use Assetic\Contracts\Asset\AssetInterface;
 use Assetic\Asset\AssetCache;
 use Assetic\Cache\FilesystemCache;
-use Zend\View\Renderer\RendererInterface as Renderer;
+use Laminas\View\Renderer\RendererInterface as Renderer;
 use AsseticBundle\View\StrategyInterface;
 
 class Service
@@ -323,7 +323,7 @@ class Service
     }
 
     /**
-     * @param \Zend\View\Renderer\RendererInterface $renderer
+     * @param \Laminas\View\Renderer\RendererInterface $renderer
      *
      * @return bool
      */
@@ -337,7 +337,7 @@ class Service
     /**
      * Get strategy to setup assets for given $renderer.
      *
-     * @param \Zend\View\Renderer\RendererInterface $renderer
+     * @param \Laminas\View\Renderer\RendererInterface $renderer
      *
      * @throws Exception\DomainException
      * @throws Exception\InvalidArgumentException
@@ -386,7 +386,7 @@ class Service
     /**
      * Get renderer name from $renderer object.
      *
-     * @param \Zend\View\Renderer\RendererInterface $renderer
+     * @param \Laminas\View\Renderer\RendererInterface $renderer
      *
      * @return string
      */

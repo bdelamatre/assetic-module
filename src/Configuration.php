@@ -2,7 +2,7 @@
 
 namespace AsseticBundle;
 
-use Zend\Stdlib;
+use Laminas\Stdlib;
 
 class Configuration
 {
@@ -52,7 +52,7 @@ class Configuration
     /**
      * The base url.
      *
-     * By default this value is set from "\Zend\Http\PhpEnvironment\Request::getBaseUrl()"
+     * By default this value is set from "\Laminas\Http\PhpEnvironment\Request::getBaseUrl()"
      *
      * Example:
      * <code>
@@ -66,7 +66,7 @@ class Configuration
     /**
      * The base path.
      *
-     * By default this value is set from "\Zend\Http\PhpEnvironment\Request::getBasePath()"
+     * By default this value is set from "\Laminas\Http\PhpEnvironment\Request::getBasePath()"
      *
      * Example:
      * <code>
@@ -117,7 +117,7 @@ class Configuration
 
     /**
      * Map of strategies that will be choose to setup Assetic\AssetInterface
-     * for particular Zend\View\Renderer\RendererInterface
+     * for particular Laminas\View\Renderer\RendererInterface
      *
      * @var array
      */
